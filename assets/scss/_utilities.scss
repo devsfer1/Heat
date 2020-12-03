@@ -1,0 +1,12 @@
+// Space container
+.container {
+    width: 85%;
+    max-width: 85em;
+    margin: 0 auto;
+}
+
+@media(max-width: 1100px) {
+    .container {
+        width: 95%;
+    }
+}
