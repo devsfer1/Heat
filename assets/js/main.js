@@ -5,6 +5,8 @@ var navbar = document.querySelector('.nav');
 var header = document.querySelector('#header');
 var navLink = document.getElementsByClassName('nav__link');
 var menuOpen = false;
+const dataAnime = document.querySelectorAll('[data-anime]');
+const animate =  'animate';
 
 //Eventos
 menuBtn.addEventListener('click', btnAnimation);
@@ -34,3 +36,17 @@ function btnAnimation(){
         menuOpen = false;
     }
 };
+
+
+//Animate on scroll
+function animeScroll() {
+    const topoDoSite = window.pageYOffset + ((window.innerHeight * 3) / 4);
+    dataAnime.forEach(function(e){
+        if((topoDoSite) > e.offsetTop) {
+            e.classList.add(animate);
+        }
+    });
+}
+
+
+animeScroll();

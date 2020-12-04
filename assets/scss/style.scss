@@ -18,6 +18,7 @@ body {
 /* === Nav === */
 header {
     width: 100%;
+    z-index: 999;
     position: fixed;
     top: 0; 
     padding: 60px 0;
@@ -121,11 +122,20 @@ header {
         border-radius: 4px;
         color: white;
         box-shadow: 0 3px 10px rgba(222, 67, 96,.2);
+        transition: ease 0.2s;
     }
 
     &__btn--2 {
         background-color: #f7f5f5;
         color: #212121;
+    }
+
+    &__btn:hover {
+        background-color: darken($primary-color, 10);           
+    }
+
+    &__btn--2:hover {
+        background-color: darken(#f7f5f5, 10);
     }
 }
 
