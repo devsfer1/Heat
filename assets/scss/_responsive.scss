@@ -6,7 +6,7 @@
             flex-direction: column;
             text-align: center;
             transition: linear 0.205s;
-            height: 250px;
+            height: 280px;
         }
 
         &__item {
@@ -19,6 +19,29 @@
 
         &__bars {
             display: flex;
+        }
+
+        .hidden {
+            visibility: hidden;
+            opacity: 0;
+            height: 0;
+        }
+    }
+}
+
+/* === Home === */
+@media(max-width: 900px) {
+    .home {
+        flex-direction: column;
+        padding: 160px 0 40px 0;
+
+        &__img {
+            display: none;
+        }
+
+        &__content {
+            width: 100%;
+            margin: 0 0 40px;
         }
     }
 }
