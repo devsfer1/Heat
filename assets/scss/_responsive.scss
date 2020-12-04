@@ -1,0 +1,24 @@
+/* === Nav === */
+@media(max-width: 800px) {
+    .nav {
+        &__list {
+            flex: 100%;
+            flex-direction: column;
+            text-align: center;
+            transition: linear 0.205s;
+            height: 250px;
+        }
+
+        &__item {
+            margin: 0;
+        }
+
+        &__link {
+            line-height: 60px;
+        }
+
+        &__bars {
+            display: flex;
+        }
+    }
+}
