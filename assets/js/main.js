@@ -12,6 +12,9 @@ const animate =  'animate';
 menuBtn.addEventListener('click', btnAnimation);
 menuBtn.addEventListener('click', ativarNavbar);
 window.addEventListener('scroll', stickyNav);
+if(dataAnime.length) {
+    window.addEventListener('scroll', animeScroll);
+}
 
 
 //Sticky nav

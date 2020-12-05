@@ -22,10 +22,10 @@
                 <div class="nav__burger"></div>
             </div>
             <ul class="nav__list hidden">
-                <li class="nav__item"><a href="" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="" class="nav__link">Sobre</a></li>
-                <li class="nav__item"><a href="" class="nav__link">Serviços</a></li>
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Serviços</a></li>
                 <li class="nav__item"><a href="" class="nav__link">Reviews</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Preços</a></li>
                 <li class="nav__item"><a href="" class="nav__link">Contato</a></li>
             </ul>
             </nav>
@@ -33,41 +33,41 @@
     </header>
     <div class="container">
         <!-- Home -->
-        <section class="home">
-            <div class="home__content" data-anime="top"> 
+        <section class="home" id="home">
+            <div class="home__content" data-anime="left"> 
                 <h1 class="home__title">Tenha as melhores landing pages do mercado, no seu portfólio.</h1>
                 <p class="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consequuntur repellendus nisi minima officia.</p>
                 <a href="" class="home__btn">Saber mais</a>
                 <a href="" class="home__btn home__btn--2">Preços</a>
             </div>
-            <div class="home__img">
+            <div class="home__img" data-anime="right">
                 <img src="assets/images/home-img.svg" alt="">
             </div>
         </section>  
-        <!-- About -->
-        <section class="about">
-            <h2 class="about__title">Nós projetamos sua Landing page para obter altas taxas de conversão</h2>
-            <div class="about__content">
-                <div class="about__item">
-                    <div class="about__icon">
-                        <i class="about__img fas fa-hand-holding-usd"></i>
+        <!-- Services -->
+        <section class="services" id="services" data-anime="left">
+            <h2 class="services__title">Nós projetamos sua Landing page para obter altas taxas de conversão</h2>
+            <div class="services__content">
+                <div class="services__item">
+                    <div class="services__icon">
+                        <i class="services__img fas fa-hand-holding-usd"></i>
                     </div>
-                    <h3 class="about__subtitle">Preço acessível</h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda eligendi est ea voluptatibus qui fugiat.</p>
+                    <h3 class="services__subtitle">Preço acessível</h3>
+                    <p class="services__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda eligendi est ea voluptatibus qui fugiat.</p>
                 </div>
-                <div class="about__item">
-                    <div class="about__icon about__icon--2">
-                        <i class="about__img fas fa-users"></i>
+                <div class="services__item">
+                    <div class="services__icon services__icon--2">
+                        <i class="services__img fas fa-users"></i>
                     </div>
-                    <h3 class="about__subtitle">Novos usuários</h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda eligendi est ea voluptatibus qui fugiat.</p>
+                    <h3 class="services__subtitle">Novos usuários</h3>
+                    <p class="services__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda eligendi est ea voluptatibus qui fugiat.</p>
                 </div>
-                <div class="about__item">
-                    <div class="about__icon about__icon--3">
-                        <i class="about__img fas fa-poll"></i>
+                <div class="services__item">
+                    <div class="services__icon services__icon--3">
+                        <i class="services__img fas fa-poll"></i>
                     </div>
-                    <h3 class="about__subtitle">Preço acessível</h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda eligendi est ea voluptatibus qui fugiat.</p>
+                    <h3 class="services__subtitle">Destaque no ranking</h3>
+                    <p class="services__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda eligendi est ea voluptatibus qui fugiat.</p>
                 </div>
             </div>
         </section>

@@ -82,7 +82,7 @@ header {
     display: flex;
     width: 100%;
     height: 100%;
-    padding: 180px 0 150px 0;
+    padding: 180px 0 130px 0;
     margin-left: auto;
     margin-right: auto;
 
@@ -140,8 +140,8 @@ header {
     }
 }
 
-/* === About === */
-.about {
+/* === Services === */
+.services {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,10 +162,6 @@ header {
         display: grid;
         grid-gap: 2vw;
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    &__item {
-
     }
 
     &__icon {
