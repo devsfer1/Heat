@@ -76,19 +76,19 @@
     <!-- Reviews -->
     <section class="reviews">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFFFFF" fill-opacity="1" d="M0,32L1440,288L1440,0L0,0Z"></path></svg>
-   
-    </section>
-    <div class="glider-contain">
-        <div class="glider">
-            <div>teste-1</div>
-            <div>teste-1</div>
-            <div>teste-1</div>
-            <div>teste-1</div>
+        <div class="reviews__container">
+            <div class=" reviews__content glider ">
+                <div>teste-1</div>
+                <div>teste-2</div>
+                <div>teste-3</div>
+                <div>teste-4</div>
+            </div>
+            <button class="glider-prev"></button>
+            <button class="glider-next"></button>
+            <div id="dots"></div>
         </div>
-        <button class="glider-prev">&laquo;</button>
-        <button class="glider-next">&raquo;</button>
-        <div id="dots"></div>
-    </div>
+    </section>
+
     
     
     <!-- Script -->
@@ -96,14 +96,14 @@
     <script src="/assets/js/glider.min.js"></script>
     <script>
         new Glider(document.querySelector('.glider'), {
-  slidesToShow: 1,
-  dots: '#dots',
-  draggable: true,
-  arrows: {
-    prev: '.glider-prev',
-    next: '.glider-next'
-  }
-});      
+            slidesToShow: 1,
+            dots: '#dots',
+            draggable: true,
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            }
+}       );      
     </script>
 </body>
 </html>
