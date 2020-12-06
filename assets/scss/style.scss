@@ -204,12 +204,12 @@ header {
 
 /* === Reviews === */
 .reviews {
-    padding: 0 0 60px 0;
+    padding: 0 0 20px 0;
     background-color: $primary-color;   
     
     &__title {
         text-align: center;
-        margin: 0 0 40px 0;
+        margin: 0 0 50px 0;
         font-size: 28px;
         font-weight: normal;
         align-self: center;
@@ -224,8 +224,7 @@ header {
     }
 
     &__content {
-        text-align: center;         
-             
+        text-align: center;              
     }
 
     &__item {
@@ -233,7 +232,7 @@ header {
     }
 
     &__testimony {
-        font-size: 24px;
+        font-size: 22px;
         font-style: italic;
         color: #fff;
         text-align: center;
@@ -256,6 +255,18 @@ header {
         margin: 20px auto;    
     }
 }
+
+/* === Prices === */
+.prices {
+
+    &__title {
+        text-align: center;
+        font-size: 28px;
+        color: $primary-color;
+        font-weight: normal;
+    }
+}
+
 
 @import 'responsive';
 @import 'utilities';
