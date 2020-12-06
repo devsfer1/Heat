@@ -34,8 +34,6 @@
     .home {
         flex-direction: column;
         padding: 160px 0 40px 0;
-        justify-content: center;
-        align-items: center;
         text-align: center;
 
         &__title {
@@ -60,13 +58,28 @@
     }
 }
 
+@media(max-width: 600px) {
+    .home {
+
+        &__title {
+            font-size: 26px;
+            line-height: 1.4; 
+        }
+
+        &__description {
+            font-size: 14px;
+        }
+    }
+}
+
 /* === Services === */
 @media(max-width: 700px) {
     .services {
         padding: 50px 0;
 
         &__title {
-            font-size: 24px;
+            font-size: 22px;
+            line-height: 1.4;
         }
 
         &__content {
@@ -77,6 +90,15 @@
         &__paragraph {
             max-width: 90%;
             margin: 0 auto;
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    .services {
+
+        &__paragraph {
+            font-size: 14px;
         }
     }
 }

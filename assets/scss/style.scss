@@ -173,7 +173,7 @@ header {
         align-items: center;
         justify-content: center;
         margin: 0 auto 20px auto;
-        box-shadow: 0 4px 10px rgba(92,72,224,.3);
+        box-shadow: 0 4px 10px rgba(66, 77, 227,.2);
     }
 
     &__icon--2 {
@@ -205,7 +205,7 @@ header {
 /* === Reviews === */
 .reviews {
     padding: 0 0 60px 0;
-    background-color: #e6ffec;    
+    background-color: #dbdbdb;    
 }
 
 @import 'responsive';
