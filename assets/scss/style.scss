@@ -275,7 +275,58 @@ header {
         text-align: center;
         white-space: pre-line;
     }
+
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .card {
+        padding: 60px 40px;
+        text-align: center;  
+        
+        &__icon {
+            font-size: 32px;
+            margin: 0 0 5px 0;
+            color: $primary-color;
+        }
+
+        &__title {
+            font-weight: 300;
+            font-size: 24px;
+            color: lighten($primary-color, 10);
+            margin: 0 0 10px 0;
+        }
+
+        &__price {
+            font-size: 40px;
+            font-weight: 600;
+            color: $primary-color;
+            margin: 0 0 20px 0;
+        }
+
+        &__description {
+            margin: 0 0 10px 0;
+            color: lighten($color: $primary-color, $amount: 20);
+        }
+
+        &__btn {
+            color: $primary-color;
+            padding: 10px 30px;
+            border: 1px solid $primary-color;
+            border-radius: 2px;
+            font-weight: 600;
+        }
+    }
+
+    .card--premium {
+        box-shadow: 0 10px 35px rgba(0,0,0,.08); 
+    }
+    
 }
+
+
 
 
 @import 'responsive';

@@ -131,3 +131,21 @@
         }
     }
 }
+
+/* === Prices === */
+@media(max-width: 600px) {
+    .prices {
+
+        &__title {
+            font-size: 22px;
+        }
+
+        &__description {
+            font-size: 14px;
+        }
+
+        &__content {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
