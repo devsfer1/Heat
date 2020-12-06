@@ -209,7 +209,7 @@ header {
     
     &__title {
         text-align: center;
-        margin: 0 0 20px 0;
+        margin: 0 0 40px 0;
         font-size: 28px;
         font-weight: normal;
         align-self: center;
@@ -218,14 +218,14 @@ header {
     }
 
     &__container {
-        width: 50%;
-        height: 500px;
+        width: 40%;
         margin: 0 auto;
         position: relative;
     }
 
     &__content {
-        
+        text-align: center;         
+             
     }
 
     &__item {
@@ -237,6 +237,23 @@ header {
         font-style: italic;
         color: #fff;
         text-align: center;
+        margin: 0 0 40px 0;
+    }
+
+    &__name {
+        letter-spacing: 0.1ch;
+        font-size: 20px;    
+        text-align: center;
+        color: darken($color: #fff, $amount: 10);
+    }
+
+    &__photo {
+        width: 60px;
+        height: 60px;
+        display: block;
+        object-fit: cover;
+        border-radius: 100px;
+        margin: 20px auto;    
     }
 }
 
