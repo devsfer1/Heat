@@ -1,0 +1,21 @@
+{
+  "name": "heat-landing-page",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsfe/bee-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devsfe/bee-landing-page/issues"
+  },
+  "homepage": "https://github.com/devsfe/bee-landing-page#readme"
+}
