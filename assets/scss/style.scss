@@ -205,17 +205,37 @@ header {
 /* === Reviews === */
 .reviews {
     padding: 0 0 60px 0;
-    background-color: #dbdbdb;    
+    background-color: $primary-color;   
+    
+    &__title {
+        text-align: center;
+        margin: 0 0 20px 0;
+        font-size: 28px;
+        font-weight: normal;
+        align-self: center;
+        line-height: 1.6;
+        color: #fff;
+    }
 
     &__container {
-        width: 80%;
+        width: 50%;
         height: 500px;
         margin: 0 auto;
         position: relative;
-        border: 2px solid red;
     }
 
     &__content {
+        
+    }
+
+    &__item {
+        width: 100%;
+    }
+
+    &__testimony {
+        font-size: 24px;
+        font-style: italic;
+        color: #fff;
         text-align: center;
     }
 }
