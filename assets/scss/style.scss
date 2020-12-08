@@ -11,6 +11,13 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 24px;
+    font-weight: normal;   
+    text-align: center; 
+    margin: 0 0 45px 0;
+}
+
 body {
     background-color: #ffff;
 }
@@ -145,15 +152,10 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 80px 0 130px 0;
 
     &__title {
-        font-size: 24px;
-        font-weight: normal;
         align-self: center;
-        text-align: center;
         max-width: 31.25rem;
-        margin: 0 0 60px 0;
         line-height: 1.6;
         color: $primary-color;
     }
@@ -165,8 +167,8 @@ header {
     }
 
     &__icon {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
         border-radius: 200px;
         background: #84BC46;
         display: flex;
@@ -206,15 +208,8 @@ header {
 /* === Reviews === */
 .reviews {
     background-color: $primary-color;  
-    padding: 80px 0 90px 0;
-    margin: 0 0 90px 0;
-    box-shadow: 10px 5px 10px rgba(91, 91, 91, 0.1);
     
     &__title {
-        text-align: center;
-        margin: 0 0 60px 0;
-        font-size: 24px;
-        font-weight: normal;
         align-self: center;
         line-height: 1.6;
         color: #fff;
@@ -263,11 +258,7 @@ header {
 .prices {
 
     &__title {
-        text-align: center;
-        font-size: 24px;
         color: $primary-color;
-        font-weight: normal;
-        margin: 0 0 20px 0;
     }
 
     &__description {
