@@ -125,7 +125,7 @@
         }
 
         &__testimony {
-            font-size: 20px;
+            font-size: 18px;
             max-width: 300px;
             margin: 0 auto 40px auto;
         }
@@ -133,6 +133,23 @@
 }
 
 /* === Prices === */
+@media(max-width: 1000px) {
+    .prices {
+
+        &__content {
+            grid-template-columns: repeat(2, 1fr);            
+        }
+    }
+}
+
+@media(max-width: 800px) {
+    .prices {
+
+        &__content {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
 @media(max-width: 600px) {
     .prices {
 
@@ -144,8 +161,20 @@
             font-size: 14px;
         }
 
-        &__content {
-            grid-template-columns: repeat(1, 1fr);
+        .card {
+
+            &__icon {
+                font-size: 28px;
+            }
+
+            &__title {
+                font-size: 20px;
+            }
+    
+            &__price {
+                font-size: 30px;
+            }
         }
     }
+
 }
