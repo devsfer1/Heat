@@ -222,8 +222,28 @@
 @media(max-width: 600px) {
     .contact {
 
+        &__title {
+            font-size: 18px;     
+        }
+
+        &__icon {
+            font-size: 16px;
+        }
+
+        &__paragraph {
+            font-size: 16px;
+        }
+
         .form {
             padding: 35px 10px;
+
+            &__title {
+                font-size: 18px;
+            }
+
+            &__description {
+                font-size: 14px;
+            }
 
         }
     }
