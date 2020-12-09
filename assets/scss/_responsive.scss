@@ -223,7 +223,12 @@
     .contact {
 
         &__title {
-            font-size: 18px;     
+            font-size: 18px;    
+            margin: 0 0 30px 0; 
+        }
+
+        &__icon--c {
+            margin: 0 0 20px 0;
         }
 
         &__icon {
@@ -243,6 +248,17 @@
 
             &__description {
                 font-size: 14px;
+            }
+
+            &__text {
+                font-size: 14px;
+                height: 50px;
+                padding: 0 10px;
+            }
+
+            &__textarea {
+                font-size: 14px;   
+                padding: 10px;   
             }
 
         }
