@@ -277,7 +277,6 @@ header {
         align-items: center;
     }
 
-
     .card {
         padding: 60px 40px;
         text-align: center;  
@@ -339,6 +338,102 @@ header {
         box-shadow: 0 20px 35px rgba(0,0,0,.10); 
     }
     
+}
+
+/* === Contact === */
+.contact {
+    background-color: $primary-color;
+
+    &__container {
+        display: flex;
+    }
+
+    &__title {
+        font-size: 26px;
+        font-weight: normal;
+        max-width: 300px;
+        color: #fff;
+        margin: 0 0 40px 0;
+    }
+
+    &__icon--c {
+        display: flex;
+        margin: 0 0 25px 0;
+    }
+
+    &__icon {
+        font-size: 24px;
+        color: #fff;     
+        margin: 0 10px 0 0;   
+    }
+
+    &__paragraph {
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .form {
+        width: 40%;
+        background-color: #f5f5f5;
+        border-radius: 6px;
+        margin-left: auto;
+        padding: 35px;
+
+        &__title {
+            text-align: center;
+            font-size: 24px;
+            color: darken($primary-color, 20);
+            letter-spacing: 0.5px;
+        }
+
+        &__description {
+            text-align: center;
+            font-size: 16px;
+            color: lighten($primary-color, 15);
+            margin: 0 0 20px 0;
+        }
+
+        &__text {
+            height: 56px;
+            margin: 10px auto;
+            width: 100%;
+            border-radius: 3px;
+            border: 1px solid #e5e9f2;
+            color: #495057;
+            padding: 0 20px;
+            font-size: 16px;
+        }
+
+        &__textarea {
+            width: 100%;
+            max-width: 100%;
+            margin: 10px 0;
+            border-radius: 3px;
+            border: 1px solid #e5e9f2;
+            outline: none;
+            color: #495057;
+            padding: 10px 20px;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        &__btn {
+            width: 100%;
+            height: 50px;
+            border: none;
+            background-color: $primary-color;
+            color: #fff;
+            border-radius: 3px;
+            border: 1px solid #e5e9f2;
+            cursor: pointer;
+        }
+
+        &__btn:hover {
+            background-color: darken($primary-color, 10);               
+        }
+
+    }
+
 }
 
 
