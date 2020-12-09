@@ -159,12 +159,12 @@
                         <p class="contact__paragraph">66 broklyn street, new york</p>
                     </div>    
                 </div>
-                <form action="" class="form">
+                <form class="form" method="POST" action="/assets/php/email.php">
                     <h4 class="form__title">Entre em contato</h4>
                     <p class="form__description">Mensagens respondidas em até 24 horas.</p>
-                    <input type="text" size="30" placeholder="Seu Nome" class="form__text">
-                    <input type="email" size="30" placeholder="Seu Email" class="form__text">
-                    <textarea name="" id="" cols="40" rows="10" placeholder="Mensagem" class="form__textarea"></textarea>
+                    <input type="text" size="30" name="name" placeholder="Seu Nome" class="form__text">
+                    <input type="email" size="30" name="email" placeholder="Seu Email" class="form__text">
+                    <textarea name="message" id="" cols="40" rows="10" placeholder="Mensagem" class="form__textarea"></textarea>
                     <input type="submit" value="Enviar mensagem" class="form__btn">
                 </form>
             </div>
