@@ -33,11 +33,11 @@
 @media(max-width: 900px) {
     .home {
         flex-direction: column;
-        padding: 160px 0 40px 0;
+        padding: 8.5em 0 2.5em 0;
         text-align: center;
 
         &__title {
-            font-size: 36px;
+            font-size: 2.25rem;
         }
 
         &__img {
@@ -46,13 +46,13 @@
 
         &__content {
             width: 100%;
-            margin: 0 0 40px;
+            margin: 0 0 2.5em 0;
         }
 
         &__btn {
             display: block;
             width: 200px;    
-            margin: 0 auto 20px auto;     
+            margin: 0 auto 1.25em auto;     
             transition: ease 0.2s;   
         }
     }
@@ -62,12 +62,12 @@
     .home {
 
         &__title {
-            font-size: 26px;
+            font-size: 1.625rem;
             line-height: 1.4; 
         }
 
         &__description {
-            font-size: 14px;
+            font-size: 0.875rem;
         }
     }
 }
@@ -75,19 +75,19 @@
 /* === Services === */
 @media(max-width: 700px) {
     .services {
-        padding: 50px 0;
+        padding: 3.125em 0;
 
         &__title {
-            font-size: 18px;
+            font-size: 1.125rem;
             line-height: 1.4;
         }
 
         &__item {
-            margin: 0 0 20px 0;
+            margin: 0 0 1.25em 0;
         }
 
         &__subtitle {
-            font-size: 16px;
+            font-size: 1rem;
         }
 
         &__content {
@@ -106,7 +106,7 @@
     .services {
 
         &__paragraph {
-            font-size: 14px;
+            font-size: 0.875rem;
         }
     }
 }
@@ -133,14 +133,14 @@
         }
 
         &__title {
-            font-size: 18px;
-            margin: 0 0 35px 0;
+            font-size: 1.125rem;
+            margin: 0 0 2.188em 0;
         }
 
         &__testimony {
-            font-size: 16px;
-            max-width: 300px;
-            margin: 0 auto 40px auto;
+            font-size: 1rem;
+            max-width: 18.75rem;
+            margin: 0 auto 2.5em auto;
         }
 
         &__photo {
@@ -149,14 +149,14 @@
         }
 
         &__name {
-            font-size: 18px;    
-            margin: 10px auto;        
+            font-size: 1.125rem;    
+            margin: 0.625em auto;        
         }
     }
 }
 
 /* === Prices === */
-@media(max-width: 1000px) {
+@media(max-width: 1070px) {
     .prices {
 
         &__content {
@@ -177,25 +177,25 @@
     .prices {
 
         &__title {
-            font-size: 20px;
+            font-size: 1.25rem;
         }
 
         &__description {
-            font-size: 14px;
+            font-size: 0.875rem;
         }
 
         .card {
 
             &__icon {
-                font-size: 28px;
+                font-size: 1.75rem;
             }
 
             &__title {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
     
             &__price {
-                font-size: 30px;
+                font-size: 1.875rem;
             }
         }
     }
@@ -223,42 +223,42 @@
     .contact {
 
         &__title {
-            font-size: 18px;    
-            margin: 0 0 30px 0; 
+            font-size: 1.125rem;    
+            margin: 0 0 1.875em 0; 
         }
 
         &__icon--c {
-            margin: 0 0 20px 0;
+            margin: 0 0 1.25em 0;
         }
 
         &__icon {
-            font-size: 16px;
+            font-size: 1rem;
         }
 
         &__paragraph {
-            font-size: 16px;
+            font-size: 1rem;
         }
 
         .form {
-            padding: 35px 10px;
+            padding: 2.188em 0.625em;
 
             &__title {
-                font-size: 18px;
+                font-size: 1.125rem;
             }
 
             &__description {
-                font-size: 14px;
+                font-size: 0.875rem;
             }
 
-            &__text {
-                font-size: 14px;
+            &__label {
+                font-size: 0.875rem;
                 height: 50px;
-                padding: 0 10px;
+                padding: 0 0.625em;
             }
 
             &__textarea {
-                font-size: 14px;   
-                padding: 10px;   
+                font-size: 0.875rem;   
+                padding: 0.625em;   
             }
 
         }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heat</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 
     <!-- Estilização -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -26,7 +27,7 @@
                 <li class="nav__item"><a href="#services" class="nav__link">Serviços</a></li>
                 <li class="nav__item"><a href="#reviews" class="nav__link">Reviews</a></li>
                 <li class="nav__item"><a href="#prices" class="nav__link">Preços</a></li>
-                <li class="nav__item"><a href="" class="nav__link">Contato</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
             </ul>
             </nav>
         </div>
@@ -158,16 +159,14 @@
                 <form class="form" method="POST" action="/assets/php/email.php" data-anime="bottom">
                     <h4 class="form__title">Entre em contato</h4>
                     <p class="form__description">Mensagens respondidas em até 24 horas.</p>
-                    <input type="text" size="30" name="name" placeholder="Seu Nome" class="form__text">
-                    <input type="email" size="30" name="email" placeholder="Seu Email" class="form__text">
+                    <input type="text" size="30" name="name" placeholder="Seu Nome" class="form__label">
+                    <input type="email" size="30" name="email" placeholder="Seu Email" class="form__label">
                     <textarea name="message" id="" cols="40" rows="10" placeholder="Mensagem" class="form__textarea"></textarea>
                     <input type="submit" value="Enviar mensagem" class="form__btn">
                 </form>
             </div>
         </div>
-    </section>
-
-    
+    </section>    
     
     <!-- Script -->
     <script src="/assets/js/main.js"></script>
@@ -187,6 +186,5 @@
           });
         });
     </script>
-
 </body>
 </html>

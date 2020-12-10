@@ -12,10 +12,10 @@ a {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: normal;   
     text-align: center; 
-    margin: 0 0 45px 0;
+    margin: 0 0 2.813em 0;
 }
 
 body {
@@ -28,7 +28,7 @@ header {
     z-index: 999;
     position: fixed;
     top: 0; 
-    padding: 60px 0;
+    padding: 3.75em 0;
 }
 
 .nav {
@@ -39,7 +39,7 @@ header {
 
     &__logo {
         color: $primary-color;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     &__list {
@@ -48,7 +48,7 @@ header {
     }
 
     &__item {
-        margin: 0 0 0 30px;
+        margin: 0 0 0 1.875em;
     }
 
     &__link {
@@ -80,7 +80,7 @@ header {
 .sticky {
     background-color: #fafffb;
     box-shadow: 0px 5px 10px rgba(91, 91, 91, 0.1);
-    padding: 30px 0;
+    padding: 1.875em 0;
     transition: ease 0.2s;
 }
 
@@ -89,7 +89,7 @@ header {
     display: flex;
     width: 100%;
     height: 100%;
-    padding: 160px 0 110px 0;
+    padding: 10em 0 5.625em 0;
     margin-left: auto;
     margin-right: auto;
 
@@ -111,17 +111,17 @@ header {
 
     &__title {
         color: $primary-color;
-        font-size: 38px;
+        font-size: 2.375rem;
         font-weight: normal;
-        margin: 0 0 20px 0;
+        margin: 0 0 1.25em 0;
         line-height: 1.35;
     }
 
     &__description {
         color: lighten($primary-color, 15);
         line-height: 1.7;
-        font-size: 18px;
-        margin: 0 0 40px 0;
+        font-size: 1.125rem;
+        margin: 0 0 2.5em 0;
     }
 
     &__btn {
@@ -174,7 +174,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0 auto 20px auto;
+        margin: 0 auto 1.25em auto;
         box-shadow: 0 4px 10px rgba(66, 77, 227,.2);
     }
 
@@ -187,7 +187,7 @@ header {
     }
 
     &__img {
-        font-size: 24px;
+        font-size: 1.5rem;
         color: #fff;
     }
 
@@ -195,7 +195,7 @@ header {
         text-align: center;
         font-weight: normal;
         color: lighten($primary-color, 5);
-        margin-bottom: 10px;
+        margin-bottom: 0.625em;
     }
 
     &__paragraph {
@@ -230,16 +230,16 @@ header {
     }
 
     &__testimony {
-        font-size: 19px;
+        font-size: 1.188rem;
         font-style: italic;
         color: darken(#fff, 5);
         text-align: center;
-        margin: 0 0 80px 0;
+        margin: 0 0 5em 0;
     }
 
     &__name {
         letter-spacing: 0.1ch;
-        font-size: 20px;    
+        font-size: 1.25rem;    
         text-align: center;
         color: darken(#fff, 15);
     }
@@ -250,7 +250,7 @@ header {
         display: block;
         object-fit: cover;
         border-radius: 100px;
-        margin: 20px auto;    
+        margin: 1.25em auto 3.75em auto;    
     }
 }
 
@@ -264,8 +264,8 @@ header {
     &__description {
         color: lighten($primary-color, 15);
         line-height: 1.7;
-        font-size: 18px;
-        margin: 0 0 40px 0;
+        font-size: 1.125rem;
+        margin: 0 0 2.5em 0;
         text-align: center;
         white-space: pre-line;
     }
@@ -278,36 +278,36 @@ header {
     }
 
     .card {
-        padding: 60px 40px;
+        padding: 3.75em 2.5em;
         text-align: center;  
         
         &__icon {
-            font-size: 30px;
-            margin: 0 0 5px 0;
+            font-size: 1.875rem;
+            margin: 0 0 0.313em 0;
             color: $primary-color;
         }
 
         &__title {
             font-weight: 300;
-            font-size: 24px;
+            font-size: 1.5rem;
             color: lighten($primary-color, 10);
-            margin: 0 0 10px 0;
+            margin: 0 0 0.625em 0;
         }
 
         &__price {
-            font-size: 40px;
+            font-size: 2.5rem;
             font-weight: 600;
             color: $primary-color;
-            margin: 0 0 20px 0;
+            margin: 0 0 1.25em 0;
         }
 
         &__description {
-            margin: 0 0 10px 0;
+            margin: 0 0 0.625em 0;
             color: lighten($color: $primary-color, $amount: 20);
         }
 
         &__description--last {
-            margin: 0 0 30px;
+            margin: 0 0 1.875em;
         }
 
         &__btn {
@@ -316,7 +316,7 @@ header {
             border: 1px solid $primary-color;
             border-radius: 4px;
             font-weight: 700;
-            font-size: 13px;
+            font-size: 0.813rem;
             text-transform: uppercase;
             line-height: 55px;
             letter-spacing: .65px;
@@ -349,72 +349,70 @@ header {
     }
 
     &__title {
-        font-size: 26px;
+        font-size: 1.625rem;
         font-weight: normal;
-        max-width: 300px;
+        max-width: 18.75rem;
         color: #fff;
-        margin: 0 0 40px 0;
+        margin: 0 0 2.5em 0;
     }
 
     &__icon--c {
         display: flex;
-        margin: 0 0 25px 0;
+        margin: 0 0 1.563em 0;
     }
 
     &__icon {
-        font-size: 24px;
+        font-size: 1.5rem;
         color: #fff;     
-        margin: 0 10px 0 0;   
+        margin: 0 0.625em 0 0;   
     }
 
     &__paragraph {
-        font-size: 24px;
+        font-size: 1.5rem;
         color: #fff;
     }
 
     .form {
-        width: 40%;
+        width: 50%;
         background-color: #f5f5f5;
         border-radius: 6px;
         margin-left: auto;
-        padding: 35px;
+        padding: 2.188em;
 
         &__title {
             text-align: center;
-            font-size: 24px;
+            font-size: 1.5rem;
             color: darken($primary-color, 20);
             letter-spacing: 0.5px;
         }
 
         &__description {
             text-align: center;
-            font-size: 16px;
+            font-size: 1rem;
             color: lighten($primary-color, 15);
-            margin: 0 0 20px 0;
+            margin: 0 0 1.25em 0;
         }
 
-        &__text {
+        &__label {
             height: 56px;
-            margin: 10px auto;
+            margin: 0.625em auto;
             width: 100%;
             border-radius: 3px;
             border: 1px solid #e5e9f2;
             color: #495057;
-            padding: 0 20px;
-            font-size: 16px;
+            padding: 0 1.25em;
+            font-size: 1rem;
         }
 
         &__textarea {
             width: 100%;
-            max-width: 100%;
-            margin: 10px 0;
+            margin: 0.625em 0;
             border-radius: 3px;
             border: 1px solid #e5e9f2;
             outline: none;
             color: #495057;
-            padding: 10px 20px;
-            font-weight: 400;
-            font-size: 16px;
+            padding: 0.625em 1.25em;
+            font-size: 1rem;
         }
 
         &__btn {
@@ -435,9 +433,6 @@ header {
     }
 
 }
-
-
-
 
 @import 'responsive';
 @import 'utilities';
