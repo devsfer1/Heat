@@ -1,6 +1,11 @@
 /* === Nav === */
 @media(max-width: 800px) {
     .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
         &__list {
             flex: 100%;
             flex-direction: column;

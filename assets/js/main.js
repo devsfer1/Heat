@@ -25,7 +25,7 @@ function stickyNav() {
 //Ativar nav
 function ativarNavbar() {
     navList.classList.toggle('hidden');
-    header.style.backgroundColor = '#fafffb';
+    
 };
 
 
